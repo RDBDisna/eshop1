@@ -1,0 +1,37 @@
+.main-body{
+    background-image: url(recores/background-body.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.logo{
+    background-image: url(recores/logo.svg);
+    height: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@font-face {
+    font-family: "Quicksand";
+    src: url("HoneyScript-Light.ttf");
+}
+
+@font-face {
+    font-family: "honey";
+    src: url("Quicksand-Medium.ttf");
+}
+
+*{
+    font-family: "honey";
+    font-size: "14px";
+}
+
+.title01{
+    font-family: "Quicksand";
+    font-size: 14px;
+    letter-spacing: 3px;
+
+}
